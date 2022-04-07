@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(26, 66, 117);
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    border-bottom: 3px #32b9cd solid;
+}
+
+.titulo {
+    margin: 0px;
+    color: #32b9cd;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container{
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    width: 500px;
+    color: orange;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+p{
+    color:white
+}
+
+
+.banner {
+    height: 800px;
+    background-image: url(deepseas.jpg);
+    position: relative;
+    background-color: #44AEFA;
+    
+    background-size: auto;
+
+}
+
+.banner .card{
+    background-color: white;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;   
+
+}
+
+.btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: #44AEFA;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+input {
+    height: 25px;
+    border: 2px solid #44AEFA;
+    border-radius: 6px;
+}
+
+.banner .card {
+    color: #44AEFA;
+}
+
+.card .genero{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.genero .inp1{
+    height: 10px;
+}
+
+.genero .inp2{
+    height: 10px;
+}
+
+.genero .inp3{
+    height: 10px;
+}
